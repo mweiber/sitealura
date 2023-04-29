@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.cabecalho {
-    background-color: rgb(62, 57, 121);
-    color: blanchedalmond;
+.cabecalho{
+    background-color: rgb(49, 47, 132);
+    color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
 }
 .cabecalho-imagem{
     width: 20%;
@@ -17,4 +19,58 @@
     margin: 0 16px;
     padding: 15px;
     font-size: 24px;
+}
+.caboco{
+    width: 30%;
+    
+}
+.site-criativo{
+    background-image: linear-gradient(rgb(49, 47, 132),#ffffff);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+.site-div{
+    width: 45%;
+}
+.site-titulo{
+    padding: 24px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.caneta-azul{
+    width: 200px;
+}
+.ytube{
+    width: 40px;
+}
+.estudantes-quem{
+    text-align: center;
+    padding: 24px;
+}
+.estudantes-todos{
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20%;
+}
+.ednaldo{
+    width: 180px;
+}
+.nal{
+    width: 180px;
+}
+.kuduro{
+    width: 160px;
+}
+.rei{
+    width: 160px;
+}
+.rodapau{
+    background-color: black;
+    text-align: center;
+}
+.fim{
+    width: 200px;
+
 }
